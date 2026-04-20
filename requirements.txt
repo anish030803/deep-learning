@@ -1,0 +1,27 @@
+# ─── Core ML ──────────────────────────────────────────────────────────────────
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# ─── Google Drive download ────────────────────────────────────────────────────
+gdown>=5.1.0
+
+# ─── Scientific stack ─────────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+Pillow>=10.0.0
+
+# ─── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ─── Hyperparameter optimisation ─────────────────────────────────────────────
+optuna>=3.6.0
+
+# ─── Progress ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0
+
+# ─── NOTE: PyTorch must be installed separately with CUDA support ─────────────
+# For RTX 5070 Ti (Blackwell sm_120) use nightly build:
+# pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
