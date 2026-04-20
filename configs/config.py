@@ -99,3 +99,5 @@ PRETRAINED = True
 # BINARY_MODE = True  → 1 output (disease / no disease)
 #               False → 14 outputs (multi-label)
 BINARY_MODE = False
+EARLY_STOP_METRIC = "val_auc"
+ 

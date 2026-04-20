@@ -47,7 +47,7 @@ from configs.config import (
 from utils.image_utils import build_image_index
 from utils.dataset import VinDrDataset, get_transforms, make_dataloaders
 from utils.metrics import compute_metrics, print_metrics, save_metrics, PATHOLOGY_NAMES
-from 03_train_finetune import (
+from utils.trainer import (
     build_model, freeze_backbone, unfreeze_backbone,
     WarmupCosineScheduler, build_optimizer, run_epoch, l1_penalty,
 )
